@@ -87,6 +87,8 @@ public class Button : MonoBehaviour
                 send = send + 1;
                 EMERGENCY = true;
                 Flight_Mode.text = "EMERGENCY_MODE!";
+                FlightPWR = 0;
+                
             }
             
             //Debug.Log(FlightPWR);
